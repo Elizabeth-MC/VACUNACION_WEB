@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--************************************************ SECCION HTML ********************************************************************-->
+        <!-- Header define la cabecera de una pagina WEB-->
+        <header>
+            <!--La barra de navegación se organiza en una lista-->
+            <ul>
+                <li><h1>Vaccination</h1></li>
+                <li><a href="Database.html">Database</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="Regulation.html">Regulation</a></li>
+                <li><a class="active" href="HoxBuster.html">Hox Buster</a></li>
+            </ul>
+        </header>
+        
+        <!--La pagina se divira en cuatro secciones conforme a la imagen de referencia-->
+        <!-- Sección 1 para la introducción de la página -->
+        <section class="section1" >
+            <h2>Fight Virus With Vaccines</h2>
+            <aside>
+                
+                <p>Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected.</p>
+                <a>Best protection</a>
+                <a>Selected Vaccines</a>
+                <p>Schedule your vaccinations </p>
+
+            </aside> 
+            
+
+            <img class="doctors" src="IMG/doctora.jpg" alt="doctors">
+            
+            <!--Banner para llenar los datos y agendar la vacuna-->
+
+            <table>
+                <tr>
+                    <th>Location</th>
+                    <th>Date</th>
+                    <th>Vaccine type</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input list="location" value="Jakatra Utara">
+                    </td>
+                    <td>
+                        <input type="date" id="fecha" value="2021-07-08">
+                    </td>
+                    <td>
+                        <input list="vaccinetype" value="Moderna">
+                    </td>
+                    <td >
+                        <input class="active"  type="submit"  value="Submit" >
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+
+        <!-- Sección 2 información general sobre la vacunación  -->
+        <section class="section2">
+            <h2>Why should I vaccine?</h2>
+            <p>In order to avoid any doubts about getting the COVID-19 vaccine,
+                identify the following 4 benefits of COVID-19 Vaccination: </p>
+            <!-- Articulos informativos sobre la vacuna-->
+            <article>
+                <img src="IMG/virus.jpg" alt="virus">
+                <h2>Minimize the spread of viruses</h2>
+                <p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
+            </article>
+        
+            <article>
+                <img  src="IMG/protect.jpg" alt="protect">
+                <h2> Forming antibodies</h2>
+                <p>COVID-19 vaccine proven to help shape antibody response for immune system</p>
+            </article>
+        
+            <article>
+                <img src="IMG/people.jpg" alt="people">
+                <h2>Protecting people nearby</h2>
+                <p>Vaccine gas been proven effective to prevent someone from getting infected with Coronavirus</p>
+            </article>
+        
+            <article>
+                <img  src="IMG/chat.jpg" alt="chat">
+                <h2>Creating group immunity</h2>
+                <p>Vaccine gas been proven effective to prevent someone from getting infected with Coronavirus</p>
+            </article>
+        
+        </section>
+        
+        <!-- Sección 3 recomendaciones -->
+        <section class="section3">
+            <h2>Preparations Before Vaccine</h2>
+            <a>The success of vaccines is strongly influenced by the strength of the body's immune system.</a>
+            <a>Therefore, there are several things that can be tried to make the COVID-19 vaccine work:</a>
+            
+            <img src="IMG/prevent.jpg" alt="vaccine">
+        
+            <!-- Lista con las recomendaciones-->
+            <!-- ul esta indicado para el menu general-->
+            <ul id="menu">
+                <li><input type="checkbox" name="list" id="option1"><label for="option1">Avoid alcoholic beverages</label>
+                    <!--Se crea el submenu que se desplegará-->
+                    <ul class="interior">
+                        <!--  Información que se desplegara al seleccionar-->
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod id assumenda error ad ex aliquam, vel explicabo,
+                            repudiandae, dolorum tempore praesentium quo? Accusantium nulla fuga debitis voluptatem itaque nisi maxime.
+                        </li>
+                    </ul>
+                <li><input type="checkbox" name="list" id="option2"><label for="option2">Avoid stress</label>
+                    <ul class="interior">
+                        <li>
+                            Stress has a profound effect on immune work.
+                            Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.
+                        </li>
+                    </ul>
+                <li><input type="checkbox" name="list" id="option3"><label for="option3">Eat healthy food</label>
+                    <ul class="interior">
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ad ea expedita ab animi repudiandae ratione,
+                            quibusdam id esse et nobis! Aperiam enim magni voluptate non velit suscipit voluptatem! Mollitia!
+                        </li>
+                    </ul>
+                <li><input type="checkbox" name="list" id="option4"><label for="option4">Get enough sleep</label>
+                    <ul class="interior">
+                        <li>
+                            Stress has a profound effect on immune work.
+                            Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.
+                        </li>
+                    </ul>
+                <li><input type="checkbox" name="list" id="option5"><label for="option5">Exercise or physical activity</label>
+                    <ul class="interior">
+                        <li>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius ut omnis animi. Aut consequatur iure assumenda minima 
+                            illo quos consectetur voluptates? Corrupti porro asperiores illo, quam cupiditate sit cum voluptatum.
+                        </li>
+                    </ul>
+
+             </ul>
+        </section>
+        
+        <!-- Sección 4 Contactos-->
+        <section class="section4">
+        
+            <h2>Emergency Contact</h2>
+            <p>
+                Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected
+            </p>
+            <img src="IMG/test.jpg" alt="test">
+            <div class="emergency"> 
+                <div>
+                    <label for="call">Call</label>
+                    <p>021.123.15.14</p>
+                    <input type="button" value="Call Now"><br><br>
+                </div>
+                <div>
+                    <label for="chat">Chat</label>
+                    <p>021.123.15.14</p>
+                    <input class="active" type="button" value="Chat Now"><br><br>
+                </div>
+                <div>
+                    <label for="videocall">Video Call</label>
+                    <p>021.123.15.14</p>
+                    <input type="button" value="Video Call Now"><br><br>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <p>021.123.15.14</p>
+                    <input type="button" value="Message Now"><br><br>
+                </div>
+            </div>
+        
+        
+        </section>
+        <!--****************** El pie de página cuenta con la etiqueta footer *********************************-->
+        <!-- Footer tiene información complementaria -->
+        <footer>
+            <div>
+                <h1>Vaccination</h1>
+                <p>Our goal is to help the world free from the ongoing pandemic</p>
+            </div>
+            <table>
+                <tr>
+                    <th>About</th>
+                    <th>Company</th>
+                    <th>Support</th>
+                </tr>
+                <tr>
+                    <td>About Us</td>
+                    <td>How We work</td>
+                    <td>FAQs</td>
+                </tr>
+                <tr>
+                    <td>Features</td>
+                    <td>Capital</td>
+                    <td>Support Center</td>
+                </tr>
+                <tr>
+                    <td>News & Blog</td>
+                    <td>Security</td>
+                    <td>Contact Us</td>
+                </tr>
+            </table>
+
+        </footer>
+
+    </body>
+</html>
